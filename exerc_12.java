@@ -1,27 +1,19 @@
-package Aula06;
+package LogicaEmJava;
 
 import java.util.Scanner;
 
-public class troca {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scn = new Scanner(System.in);
-		
-		//entrada
-		System.out.print("Digite o valor de A: ");
-		int a = scn.nextInt();
-		
-		System.out.print("Digite o valor de B: ");
-		int b = scn.nextInt();
-		
-		//processamento
-		int aux = a;
-		a = b;
-		b = aux;
-		
-		//saida
-		System.out.println("O valor de A = " + a);
-		System.out.println("O valor de B = " + b);
-	}
+public class exerc_12 {
+    public static void main(String[] args) {
+        
+        Scanner scn = new Scanner(System.in);
+  
+        System.out.println("Digite a sua altura em metros: ");
+        double altura = scn.nextDouble();
+        
+        double pesoIdeal = (72.7 * altura) - 58;
+        
+        System.out.println("Seu peso ideal é: " + pesoIdeal + " kg");
+        
+        scn.close();
+    }
 }

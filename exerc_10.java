@@ -1,17 +1,21 @@
-package Aula06;
+//Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+package LogicaEmJava;
 
 import java.util.Scanner;
 
-public class raiz_quadrada {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Scanner scn = new Scanner(System.in);
-		
-		System.out.print("Digite um número: ");
-		int num = scn.nextInt();
-		
-		System.out.print("A raiz quadrada = " + (int)Math.sqrt(num));
-	}
-
+public class exerc_10 {
+    public static void main(String[] args) {
+        
+        Scanner scn = new Scanner(System.in);
+        
+        System.out.println("Digite a temperatura em Celsius: ");
+        double celsius = scn.nextDouble();
+        
+        double fahrenheit = (celsius * 9/5) + 32;
+        
+        System.out.println("Temperatura em Fahrenheit: " + fahrenheit);
+        
+        scn.close();
+    }
 }
+

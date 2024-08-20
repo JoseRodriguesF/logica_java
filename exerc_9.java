@@ -1,18 +1,20 @@
-package Aula06;
+//Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius. C = 5 * ((F-32) / 9).
+package LogicaEmJava;
 
 import java.util.Scanner;
 
-public class potencia {
+public class exerc_9 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		
-		System.out.print("Digite um número inteiro: ");
-		int num = scn.nextInt();
+		System.out.println("Digite a temperatura em Fahrenheit: ");
+		double Fahrenheit = scn.nextDouble();
 		
-		//int potencia = (int)Math.pow(num, 2);
+		System.out.println("Temperatura em celcius: "+ 5*( Fahrenheit-32)/9);
 		
-		System.out.println("O número elevado ao quadrado = " + (int)Math.pow(num,  2));		
+		scn.close();
+		
 	}
+
 }
