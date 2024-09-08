@@ -1,8 +1,8 @@
-package Aula09;
+package LogicaEmJava;
 
 import java.util.Scanner;
 
-public class imc {
+public class exerc_13{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

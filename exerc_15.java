@@ -1,8 +1,8 @@
-package Aula09;
+package LogicaEmJava;
 
 import java.util.Scanner;
 
-public class triangulos {
+public class exerc_15{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
